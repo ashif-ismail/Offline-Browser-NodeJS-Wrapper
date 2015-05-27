@@ -7,7 +7,7 @@ var WEBHOOK_SECRET = "62DZWMCCFFHTTQ44CG3WUQ94CTT7GAAN";
 app.post('/telerivet/webhook', 
   bodyParser.urlencoded({ extended: true }),
   function(req, res) {
-      
+      res.send('hello');
       var secret = req.body.secret;
       if (secret !== WEBHOOK_SECRET) {
           res.status(403).end();
