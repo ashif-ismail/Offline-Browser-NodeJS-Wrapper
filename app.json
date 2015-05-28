@@ -1,6 +1,6 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
+  "name": "Offline Browser",
+  "description": "Browser that lets you Access Internet through SMS",
   "repository": "https://github.com/SheikhZayed/OfflineBrowser.git",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"]
